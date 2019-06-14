@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - UIKitComponent (0.0.2):
+  - UIKitComponent (0.0.4):
     - Masonry
 
 DEPENDENCIES:
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  UIKitComponent: 9430e084741968c988cc478a94dd3951dfda7ec9
+  UIKitComponent: 87777bc356b5f3a3f687e9dfa0dcad18cdebcac3
 
-PODFILE CHECKSUM: e4c141828cc06e55c90524958ae4767b718a7f27
+PODFILE CHECKSUM: cc407a0503eb3a1fb9158a553a5ed31ba8885174
 
 COCOAPODS: 1.7.2

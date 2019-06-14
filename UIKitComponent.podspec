@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIKitComponent'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = '提示组件'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit','AVFoundation'
+  s.frameworks = 'UIKit','Foundation'
   s.dependency 'Masonry'
 end
