@@ -1,0 +1,16 @@
+PODS:
+  - UIKitComponent (0.1.0)
+
+DEPENDENCIES:
+  - UIKitComponent (from `../`)
+
+EXTERNAL SOURCES:
+  UIKitComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIKitComponent: 16540c4bf865ecf0b215dbf28ced74555b5f0de5
+
+PODFILE CHECKSUM: 2748d67ad3fd7aa4b8e7c24e504dd271a115704a
+
+COCOAPODS: 1.7.2
