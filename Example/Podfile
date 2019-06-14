@@ -2,6 +2,8 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+pod 'Masonry'
+
 target 'UIKitComponent_Example' do
   pod 'UIKitComponent', :path => '../'
 

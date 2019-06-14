@@ -10,8 +10,3 @@
 #endif
 #endif
 
-#import "CommonTipView.h"
-
-FOUNDATION_EXPORT double UIKitComponentVersionNumber;
-FOUNDATION_EXPORT const unsigned char UIKitComponentVersionString[];
-
