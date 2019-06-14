@@ -35,9 +35,9 @@
         
         [self addSubview:_box];
         
-        [_box makeConstraints:^(MASConstraintMaker *make) {
+        [_box mas_makeConstraints:^(MASConstraintMaker *make) {
             make.center.equalTo(self);
-            make.size.equalTo(CGSizeMake(200, 200));
+            make.size.mas_equalTo(CGSizeMake(200, 200));
         }];
     }
     

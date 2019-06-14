@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIKitComponent'
-  s.version          = '0.0.4'
+  s.version          = '0.0.6'
   s.summary          = '提示组件'
 
 # This description is used to generate tags and improve search results.

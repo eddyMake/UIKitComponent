@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#define MAS_SHORTHAND
-#define MAS_SHORTHAND_GLOBALS
-#import <Masonry.h>
+#import <Foundation/Foundation.h>
+#import "Masonry.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
