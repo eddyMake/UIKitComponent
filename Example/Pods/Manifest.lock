@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - UIKitComponent (0.0.4):
+  - UIKitComponent (0.0.9):
     - Masonry
 
 DEPENDENCIES:
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  UIKitComponent: 87777bc356b5f3a3f687e9dfa0dcad18cdebcac3
+  UIKitComponent: 32df322329fcbeb58f1cd47031c4d7c9d19df539
 
 PODFILE CHECKSUM: cc407a0503eb3a1fb9158a553a5ed31ba8885174
 

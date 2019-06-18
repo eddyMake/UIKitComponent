@@ -10,7 +10,7 @@
 
 @interface CommonTipView ()
 
-@property (nonatomic, strong) UIView *box;
+@property (nonatomic, strong) UIImageView *box;
 
 @end
 
@@ -26,12 +26,13 @@
     return self;
 }
 
-- (UIView *)box
+- (UIImageView *)box
 {
     if (_box == nil)
     {
-        _box = [[UIView alloc] init];
+        _box = [[UIImageView alloc] init];
         _box.backgroundColor = [UIColor redColor];
+        _box.image = [UIImage imageNamed:@"ly_home_n_icon"];
         
         [self addSubview:_box];
         
