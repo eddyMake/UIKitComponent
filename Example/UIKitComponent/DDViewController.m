@@ -7,6 +7,7 @@
 //
 
 #import "DDViewController.h"
+#import <CommonTipView.h>
 
 @interface DDViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    CommonTipView *view = [[CommonTipView alloc] init];
+
+    [self.view addSubview:view];
+
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
